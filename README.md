@@ -6,3 +6,4 @@ The 5 Steps of the Critical Rendering PathThe path consists of five distinct, pr
 3. Render Tree Creation: The browser merges the DOM and CSSOM trees into a single "Render Tree".This tree contains only the visible elements that will be rendered on the screen (e.g., elements set to display: none are excluded).
 4. Layout (Reflow)The browser calculates the exact geometry, size, and position of each visible element on the page relative to the device viewport.
 5. Paint (Repaint)The browser fills in the actual pixels on the screen, rendering text, colors, images, shadows, and borders.
+
